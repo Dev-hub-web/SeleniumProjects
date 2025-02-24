@@ -18,7 +18,7 @@ public class ExcelTest {
 
     @AfterTest
     public void tearDown() {
-        WebdriverManager.quit();
+        WebdriverManager.quit();a
     }
 
     @Test
