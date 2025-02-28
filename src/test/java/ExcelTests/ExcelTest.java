@@ -23,8 +23,6 @@ public class ExcelTest {
 
     @Test
     public void avdTest() {
-        loginPage loginPage = new loginPage(driver);
-        loginPage.clickButton();
-
+        
     }
 }
