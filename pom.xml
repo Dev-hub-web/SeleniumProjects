@@ -19,9 +19,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
                 <configuration>
-                    <includes>
-                        <include>**/SpecificTest.java</include> <!-- Runs only SpecificTest.java -->
-                    </includes>
+                  
                     <systemPropertyVariables>
                         <allure.results.directory>target/allure-results</allure.results.directory>
                     </systemPropertyVariables>
